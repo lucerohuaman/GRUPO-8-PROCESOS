@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="css/estiloinicio.css">
+        <link rel="stylesheet" href="css/fontello.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="stylesheet" href="css/popup.css">
+        <link rel="stylesheet" href="css/informacion.css">
+    </head>
+<body>       
+    <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="icon-menu"></label>     
+        <nav class="menu">        
+                <div class="logo">
+                    <img src="img/logofisi+.png" alt="">
+                </div>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="comentarios.html">COMÉNTANOS TUS DUDAS</a></li>
+                    <li><a href="temas.html">SOBRE LAS CARRERAS</a></li>
+                    <li><a href="vitae.html">INTRODÚCETE AL MUNDO LABORAL</a></li>
+                    <li><div class="contenedor">
+                        <article>
+                            <button id="btn-abrir-popup" class="btn-abrir-popup">Iniciar sesión</button>     
+                        </article>
+                </li>
+                </ul>
+            </nav>
+            <div class="segundaportada">
+                <img src="img/portadasegundapagina.png" >
+            </div>
+            <div class="container-all" id="move-content">
+                <div class="container-post">
+               
+                       <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+                       <input type="radio" id="ALGORITMO" name="categories" value="ALGORITMO">
+                       <input type="radio" id="LENGUAJESDEPROGRAMACION" name="categories" value="LENGUAJESDEPROGRAMACION">
+                       <input type="radio" id="LENGUAJESMASUSADOS" name="categories" value="LENGUAJESMASUSADOS">
+                       <input type="radio" id="INTELIGENCIAARTIFICIAL" name="categories" value="INTELIGENCIAARTIFICIAL">
+                       <input type="radio" id="BIGDATA" name="categories" value="BIGDATA">
+               
+                       <div class="container-category">
+                           <label for="TODOS">TODOS</label>
+                           <label for="ALGORITMO">ALGORITMO</label>
+                           <label for="LENGUAJESDEPROGRAMACION">LENGUAJES DE PROGRAMACIÓN</label>
+                           <label for="LENGUAJESMASUSADOS">LENGUAJES MÁS USADOS</label>
+                           <label for="INTELIGENCIAARTIFICIAL">INTELIGENCIA ARTIFICIAL</label>
+                           <label for="BIGDATA">BIG DATA</label>
+                       </div>
+               
+                       <div class="posts">
+               
+                           <div class="post" data-category="ALGORITMO">
+               
+                               <div class="ctn-img">
+                                   <img src="img/algoritmologo.png" alt="">
+                               </div>
+                               <h2>Definición de algoritmo</h2>
+                               <span>Infórmate</span>
+                               <ul class="ctn-tag">
+                                   <li>ALGORITMO</li>
+                               </ul>
+                               <a href="algoritmo.html"><button>Leer más</button></a>
+               
+                           </div>
+               
+                           <div class="post" data-category="LENGUAJESDEPROGRAMACION">
+               
+                               <div class="ctn-img">
+                                   <img src="img/lenguajesdeprogramacionlogo.png" alt=""></div>
+                               <h2>LENGUAJES DE PROGRAMACIÓN</h2>
+                               <span>Infórmate</span>
+                               <ul class="ctn-tag">
+                                   <li>C++</li>
+                                   <li>PYTHON</li>
+                                   <li>JAVA</li>
+                               </ul>
+                               <a href="lenguajesdeprogramacion.html"><button>Leer más</button></a>
+               
+                           </div>
+               
+                           <div class="post" data-category="LENGUAJESMASUSADOS">
+               
+                               <div class="ctn-img">
+                                   <img src="img/lenguajesmasusadoslogo.png" alt=""></div>
+                               <h2>LENGUAJES DE PROGRAMACIÓN MÁS USADOS</h2>
+                               <span>Infórmate</span>
+                               <ul class="ctn-tag">
+                                   <li>C++</li>
+                                   <li>PYTHON</li>
+                                   <li>JAVA</li>
+                               </ul>
+                               <a href="lenguajesmasusados.html"><button>Leer más</button></a>
+               
+                           </div>
+               
+                           <div class="post" data-category="INTELIGENCIAARTIFICIAL">
+               
+                               <div class="ctn-img">
+                                   <img src="img/ialogo.png" alt=""></div>
+                               <h2>INTELIGENCIA ARTIFICIAL</h2>
+                               <span>Infórmate</span>  
+                               <a href="ia.html"><button>Leer más</button></a>
+               
+                           </div>
+               
+                           <div class="post" data-category="BIGDATA">
+               
+                               <div class="ctn-img">
+                                   <img src="img/bigdatalgo.png" alt=""></div>
+                               <h2>BIG DATA</h2>
+                               <span>Infórmate</span>
+                               <a href="bigdata.html"><button>Leer más</button></a>
+               
+                           </div>
+                           <div class="post" >
+               
+                            <div class="ctn-img">
+                                <img src="img/examen.jpg" alt=""></div>
+                            <h2>¡EXAMEN FINAL!</h2>
+                            <span>Consigue tu certificado</span>
+                            <a href="quiz_final.html"><button>Comenzar</button></a>
+            
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <script src="js/popup.js"></script>
+</body>
+</html>

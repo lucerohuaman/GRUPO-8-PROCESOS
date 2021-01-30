@@ -1,0 +1,45 @@
+body{
+    text-align: justify;
+   background:  white;
+}
+.mensaje{
+    height: 100%;
+    background: white;
+}
+.tema{
+    text-align: center;
+    background: black;
+    color:white;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin:30px;
+    font-size: 30px;
+}
+.men1{
+    background: black;
+    color:white;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin:30px;
+    font-size: 20px;
+}
+.men2{
+    background: black;
+    color:white;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin:30px;
+    font-size: 20px;
+}
+.men3{
+    background: black;
+    color:white;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin:30px;
+    font-size: 20px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/estiloinicio.css">
+    <link rel="stylesheet" href="css/ventanaemergente.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+    <div class="vnt" alt="">
+      <input type="checkbox" id="cerrar">
+        <label for="cerrar" id="boton-cerrar">X</label>
+        <div class="ventana">
+            <div class="contenidodelaventana">
+            <img src="img/bienvenidos.png" alt="" >
+            </div>
+        </div>
+    </div>
+    <main>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="icon-menu"></label>
+        
+        <nav class="menu">
+            
+            <div class="logo">
+                <img src="img/logofisi+.png" alt="">
+            </div>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                    <li><a href="comentarios.html">COMÉNTANOS TUS DUDAS</a></li>
+                    <li><a href="temas.html">SOBRE LAS CARRERAS</a></li>
+                    <li><a href="vitae.html">INTRODÚCETE AL MUNDO LABORAL</a></li>
+                <li><div class="contenedor">
+                    <article>
+                        <button id="btn-abrir-popup" class="btn-abrir-popup" ><a href="login.php">Iniciar sesión</a></button>     
+                    </article>
+            
+                    </li>
+            </ul>
+        </nav>
+       
+        <header>
+            <div class="fondo">
+                <ul>
+                    <li><img src="img/portada1.png" alt=""></li>
+                    <li><img src="img/portada2.png" alt=""></li>
+                    <li><img src="img/portada3.png" alt=""></li>
+                    <li><img src="img/portada4.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="portada">
+                <img src="img/portada1.png">
+            </div>
+            <div class="portada2">
+                <img src="img/portada3.png">
+            </div>
+        </header>
+        <section>
+            <div class="mensaje" alt="">
+                <img src="img/logofisi+.png" alt="">
+                <a>
+                    Es una plataforma que tiene como objetivo informar a los estudiantes de la facultad sobre las
+                    especialidades que hay, proveer los conocimientos necesarios sobre las oportunidades laborales 
+                    y opiniones de especialistas sobre las carreras.
+                </a>
+            </div>
+            <div class="carreras" alt="">
+                    <div class="carrera1logo" alt="">
+                        <img src="img/sistemas.png" alt="">
+                    </div>
+                    <div class="carrera2logo" alt="">
+                        <img src="img/software.png" alt="">
+                    </div>
+            </div>
+            <div class="mensaje3" alt="">
+                <a>¿QUÉ ESPERAS? <br>
+                    REVISA TODO NUESTRO CONTENIDO
+                </a>
+            </div>     
+        </section>
+        <script src="js/popup.js"></script>
+    </main>
+  </body>
+</html>
